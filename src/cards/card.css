@@ -1,0 +1,64 @@
+.card {
+    background-color: #FFFF;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+    height: fit-content;
+    margin-top: 2.5rem;
+    padding: 0;
+    border-radius: 25px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.components {
+    display: flex;
+    gap: 2rem;
+    padding: 1.5rem 0rem 2rem 0rem;
+
+
+}
+
+.card_img {
+    border-radius: 100%;
+    position: absolute;
+    top: 10px;
+    size: 10rem;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.data {
+    margin-top: 3rem;
+    text-align: center;
+
+}
+
+.data h3 {
+    font-size: 0.9rem;
+    font-weight: 540;
+}
+
+.data h4 {
+    font-size: 0.8rem;
+    color: rgb(171, 168, 168);
+}
+
+.p1 {
+    color: #089BAB;
+    font-size: 0.6rem;
+}
+
+.blood {
+    text-align: center;
+}
+
+.blood p:nth-of-type(2) {
+    font-size: 14px;
+
+}
+

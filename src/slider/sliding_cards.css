@@ -1,0 +1,39 @@
+.boxie {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+
+
+
+}
+
+
+.color_box {
+
+    padding: 0.3rem;
+    height: 6rem;
+    border-radius: 25px;
+}
+
+.data_box {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+}
+
+.data_box p:first-of-type {
+    font-size: 0.8REM;
+    color: rgb(145, 143, 143);
+    margin-bottom: 0.4rem;
+
+}
+
+.data_box h2 {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.data_box p:nth-child(3) {
+    color: rgb(145, 143, 143);
+    font-size: 1rem;
+}

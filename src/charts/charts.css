@@ -1,0 +1,44 @@
+.map_cont {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 2rem 0rem 2rem;
+
+}
+
+.chart_head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chart_days {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+}
+
+.chart_head h1 {
+    font-size: 1.7rem;
+    font-weight: 500;
+    width: 70%;
+    color: #089BAB;
+}
+
+.chart_days p {
+    background-color: #CEEBEE;
+    color: #089BAB;
+    font-size: 20px;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+}
+
+.dt_ch {
+    display: flex;
+    width: 100%;
+
+    justify-content: center;
+    align-items: center;
+}

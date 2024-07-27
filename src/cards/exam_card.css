@@ -1,0 +1,39 @@
+.ex_box {
+    margin: 3.5rem 1rem 2rem 2rem;
+    width: full;
+
+}
+
+.ex_heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ex_heading h2 {
+    font-size: 1.5rem;
+    color: #089BAB;
+    margin-left: 3rem;
+}
+
+.ex_heading div {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+
+}
+
+.ex_heading p {
+    margin-right: 4rem;
+    color: #089BAB;
+}
+
+.ex-icon {
+    color: #089BAB;
+    background-color: #CEEBEE;
+    padding: 0.8rem;
+    font-size: 3rem;
+    border-radius: 20px;
+    margin-top: -0.6rem;
+
+
+}

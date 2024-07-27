@@ -1,0 +1,117 @@
+.head {
+    display: flex;
+    width: 90%;
+    padding-top: 1.3rem;
+    padding-bottom: 1rem;
+    margin: 0;
+    justify-content: space-between;
+
+}
+
+
+.icon-b {
+    margin-top: 0.2rem;
+    color: #9DDBBE;
+}
+
+.name {
+    display: flex;
+    gap: 0.5rem;
+
+}
+
+.head h2 {
+    font-size: 15px;
+}
+
+.name h2 {
+    font-weight: 700;
+    font-size: 0.9rem;
+
+}
+
+.cal {
+    display: flex;
+    gap: 20px;
+    font-size: 0.6rem;
+    color: #089BAB;
+}
+
+.days {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 85%;
+    padding-bottom: 1rem;
+
+}
+
+.days h3 {
+    font-size: 0.7rem;
+    color: rgb(171, 168, 168);
+}
+
+hr {
+    width: 100%;
+}
+
+.card1_img {
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+}
+
+.pic {
+    display: flex;
+    gap: 0.5rem;
+    width: 85%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.pic_data :first-child {
+    font-size: 0.7rem;
+    font-weight: 550;
+}
+
+.pic_data :nth-child(2) {
+    font-size: 0.6rem;
+    color: rgb(171, 168, 168);
+    ;
+}
+
+.job {
+
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+}
+
+.job h1 {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.job p {
+    font-size: 11px;
+    color: rgb(171, 168, 168);
+}
+
+.dates {
+    display: flex;
+    gap: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 1.3rem;
+}
+
+.Date p,
+.Time p {
+    font-size: 0.6rem;
+    color: #089BAB;
+}
+
+.Date h2,
+.Time h2 {
+    font-size: 12.5px;
+
+}

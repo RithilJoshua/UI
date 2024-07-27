@@ -1,0 +1,65 @@
+.dates_sl {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    width: 14rem;
+    scroll-behavior: smooth;
+    padding: 0;
+    white-space: nowrap;
+}
+
+.dates_sl::-webkit-scrollbar {
+    display: none;
+}
+
+.dates_sl li {
+    list-style: none;
+    display: inline-block;
+    padding: 1rem 0.5rem 1rem 0.5rem;
+    position: relative;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+
+.dates_sl li.selected {
+    color: #FEAD54;
+
+}
+
+.dates_sl li.selected::after {
+    content: '';
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    background-color: #089BAB;
+}
+
+
+.slider-container {
+    display: flex;
+    align-items: center;
+}
+
+
+.arrow {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 0 0.5rem;
+    color: rgb(155, 155, 155);
+}
+
+.left-arrow {
+    margin-right: 0.5rem;
+}
+
+.right-arrow {
+    margin-left: 0.5rem;
+}
